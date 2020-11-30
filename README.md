@@ -3,13 +3,18 @@
 
 # Willkommen bei der vierten Übungsaufgabe.
 
-Ihr findet im Download wieder eine Vorlage. Dieses mal etwas ruhiger als die letzte Woche. Mit If-Else-Ausdrücken haben wir ja bereits gearbeitet. Switches allerdings sind da neu. Da Börges Hausaufgabe aber schon sehr gut ist, um den Umgang mit Switches und Ternary-Operatoren (Elvis-Operator), kommt in der Übung diese Woche nur ein bisschen Wiederholung, mit einem kleinen neuen Bauteil in Java.
+Ihr findet im Download wieder eine Vorlage. Dieses mal ist die Aufgabe etwas ruhiger als letzte Woche. Diese Woche wiederholen wir nur. Ich empfehle euch die Hausaufgabe von Börge anzugucken, da sie meiner Meinung nach sehr gut Switches und Ternary-Operatoren anwendet.
 
-Wir benutzen diese Woche einen Scanner, der einem die Eingabe in die Konsole ermöglicht. Mit der Eingabe kann man dann im Programm weiterarbeiten. Über die genaue Funktionsweise des Scanners und wie ihr ihn selbst einbaut sprechen wir zu einem späteren Zeitpunkt.
+Neu für euch: Wir benutzen diese Woche einen Scanner, der einem die Eingabe in die Konsole ermöglicht. Mit der Eingabe kann man dann im Programm weiterarbeiten. Über die genaue Funktionsweise des Scanners und wie ihr ihn selbst einbaut sprechen wir zu einem späteren Zeitpunkt.
 
 ### 📝 Aufgabe:
 
-Wir schreiben heute ein Programm für einen Supermarkt, welches Produkte, die von einem/r Nutzer/in eingegeben werden, darauf überprüft ob sie momentan im Angebot sind. Dazu folgende Liste:
+Wir schreiben heute ein Programm für einen Supermarkt, welches Produkte darauf überprüft ob sie momentan im Angebot sind. 
+
+Beispiel:
+Nach dem Starten des Programms wird *Milch* in die Konsole eingetippt. Das Programm sollte eine Konsolenausgabe zurückgeben, die über das entsprechende Angebot informiert. In diesem Falle wären es 10%.
+
+Dazu folgende Liste:
 
 | Artikel          | Status      |
 |------------------|-------------|
@@ -22,18 +27,16 @@ Wir schreiben heute ein Programm für einen Supermarkt, welches Produkte, die vo
 | Schokolade       | Normalpreis |
 | Apfelsaft        | Normalpreis |
 
-Und da es sich um einen sehr kleinen Supermarkt handelt, ist es alles was dieser momentan führt. Entsprechend sollten alle Nutzer/inneneingaben, die nicht in dieser Liste vorkommen, einen Fehler ausgeben (Bsp: "Produkt nicht gefunden").
+Und da es sich um einen sehr kleinen Supermarkt handelt, ist es alles was dieser momentan führt. Entsprechend sollten alle Nutzer/inneneingaben, die nicht in dieser Liste vorkommen, einen Fehler ausgeben (Bsp: Erdbeeren => "Produkt nicht gefunden").
 
-Beispiel:
-Nach dem Starten des Programms wird *Milch* in die Konsole eingetippt. Das Programm sollte eine Konsolenausgabe zurückgeben, die über das entsprechende Angebot, in diesem Falle 10% Rabatt, informiert.
 
 #### Eure spezifischen Aufgaben sind:
 - Ladet euch die Vorlage runter und importiert sie in Eclipse (oder eure IDE)
-- Vervollständigt die Methode *checkDeals(String artikel)*, sodass das Programm so funktioniert wie oben beschrieben
+- Vervollständigt die Methode *checkDeals(String artikel)*, sodass das Programm so wie oben beschrieben funktioniert
 - Schreibt einen kurzen JavaDoc zu der Methode *checkDeals*
 
 ## Tipps
-- Ihr müsst nur an der Methode *checkDeals* tüfteln. Die Main-Methoden solltet ihr auch gar nicht anrühren.
+- Ihr müsst nur an der Methode *checkDeals* tüfteln. Die Main-Methode solltet ihr auch gar nicht anrühren.
 - Überlegt euch wie ihr euren Code so kompakt wie möglich gestaltet, sodass ihr Zeit, Arbeit und Platz spart.
   - Denkt daran welche Funktionsweisen ein Switch hat
 - Zur Lösung der Aufgabe kann ein einziger Switch ausreichen.
