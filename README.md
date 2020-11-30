@@ -27,7 +27,7 @@ Dazu folgende Liste:
 | Schokolade       | Normalpreis |
 | Apfelsaft        | Normalpreis |
 
-Und da es sich um einen sehr kleinen Supermarkt handelt, ist es alles was dieser momentan führt. Entsprechend sollten alle Nutzer/inneneingaben, die nicht in dieser Liste vorkommen, einen Fehler ausgeben (Bsp: Erdbeeren => "Produkt nicht gefunden").
+Und da es sich um einen sehr kleinen Supermarkt handelt, ist das alles was dieser momentan führt. Entsprechend sollten alle Nutzer/inneneingaben, die nicht in dieser Liste vorkommen, einen Fehler ausgeben (Bsp: Erdbeeren => "Produkt nicht gefunden").
 
 
 #### Eure spezifischen Aufgaben sind:
