@@ -3,13 +3,13 @@
 
 # Willkommen bei der vierten Übungsaufgabe.
 
-Ihr findet im Download wieder eine Vorlage. Dieses mal ist die Aufgabe etwas ruhiger als letzte Woche. Diese Woche wiederholen wir nur. Ich empfehle euch die Hausaufgabe von Börge anzugucken, da sie meiner Meinung nach sehr gut Switches und Ternary-Operatoren anwendet.
+Ihr findet im Download wieder eine Vorlage. Dieses Mal ist die Aufgabe etwas ruhiger als letzte Woche. Diese Woche wiederholen wir nur. Ich empfehle euch die Hausaufgabe von Börge anzugucken, da sie meiner Meinung nach sehr gut Switches und Ternary-Operatoren anwendet.
 
-Neu für euch: Wir benutzen diese Woche einen Scanner, der einem die Eingabe in die Konsole ermöglicht. Mit der Eingabe kann man dann im Programm weiterarbeiten. Über die genaue Funktionsweise des Scanners und wie ihr ihn selbst einbaut sprechen wir zu einem späteren Zeitpunkt.
+Neu für euch: Wir benutzen diese Woche einen Scanner, der einem die Eingabe in die Konsole ermöglicht. Mit der Eingabe kann man dann im Programm weiterarbeiten. Über die genaue Funktionsweise des Scanners und wie ihr ihn selbst einbaut, sprechen wir zu einem späteren Zeitpunkt.
 
 ### 📝 Aufgabe:
 
-Wir schreiben heute ein Programm für einen Supermarkt, welches Produkte darauf überprüft ob sie momentan im Angebot sind. 
+Wir schreiben heute ein Programm für einen Supermarkt, welches Produkte darauf überprüft, ob sie momentan im Angebot sind. 
 
 Beispiel:
 Nach dem Starten des Programms wird *Milch* in die Konsole eingetippt. Das Programm sollte eine Konsolenausgabe zurückgeben, die über das entsprechende Angebot informiert. In diesem Falle wären es 10%.
